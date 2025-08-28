@@ -1,0 +1,17 @@
+##1
+one way to create enviroment using python 
+
+python -m venv myenv - this command is use to create enviroment using python
+myenv/scripts/activate --> this command is use to activate the enviroment
+
+##2 
+ this way uselly use for linux 
+
+ pip install  virtualenv--> to create virtual enviroment
+ virtualenv  -p python virtual_env
+
+ ##3 
+  in this way we use annaconda to create enviroment
+
+  conda create -p  venv python==3.1.0
+  conda activate venv/
